@@ -20,8 +20,12 @@ void UMoveComponent::BeginPlay()
 	Super::BeginPlay();
 
 	// set start location
-	StartRealtiveLocation = this->GetRelativeLocation();
+	StartRealtiveLocation = GetRelativeLocation();
+
+	MoveOffsetNorm = MoveOffset;
+	MoveOffsetNorm.Normalize();
 	
+	MaxDistance = MoveOffset.Length();
 }
 
 
@@ -29,8 +33,14 @@ void UMoveComponent::BeginPlay()
 void UMoveComponent::TickComponent(float DeltaTime, ELevelTick TickType, FActorComponentTickFunction* ThisTickFunction)
 {
 	Super::TickComponent(DeltaTime, TickType, ThisTickFunction);
+	
+	// Set Current Distance
+	CurrentDistance += DeltaTime * speed * MoveDirection;
+	if (CurrentDistance >= MaxDistance || CurrentDistance <= 0.f) {
+		MoveDirection *= -1;
+	}
 
 	// Compute and set current location
-	SetRelativeLocation(StartRealtiveLocation + MoveOffset);
+	SetRelativeLocation(StartRealtiveLocation + MoveOffsetNorm * CurrentDistance);
 }
 
