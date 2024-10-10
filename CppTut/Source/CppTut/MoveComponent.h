@@ -25,8 +25,12 @@ public:
 	virtual void TickComponent(float DeltaTime, ELevelTick TickType, FActorComponentTickFunction* ThisTickFunction) override;
 
 private:
+	// Parameter
+	UPROPERTY(EditAnywhere)
+	FVector MoveOffset;
+
+	// Computed Locations
 	FVector StartRealtiveLocation;
-	FVector EndRelativeLocation;
 
 		
 };

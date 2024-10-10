@@ -21,10 +21,6 @@ void UMoveComponent::BeginPlay()
 
 	// set start location
 	StartRealtiveLocation = this->GetRelativeLocation();
-
-	// set end location
-	EndRelativeLocation = StartRealtiveLocation;
-	EndRelativeLocation.Z += 100.f;
 	
 }
 
@@ -35,6 +31,6 @@ void UMoveComponent::TickComponent(float DeltaTime, ELevelTick TickType, FActorC
 	Super::TickComponent(DeltaTime, TickType, ThisTickFunction);
 
 	// Compute and set current location
-	SetRelativeLocation(EndRelativeLocation);
+	SetRelativeLocation(StartRealtiveLocation + MoveOffset);
 }
 
