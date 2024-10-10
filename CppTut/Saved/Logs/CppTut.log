@@ -1277,3 +1277,519 @@ LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
 [2024.10.10-15.40.15:389][  1]LogSlate: Window 'Save Level As' being destroyed
 [2024.10.10-15.40.15:402][  1]LogFileHelpers: InternalPromptForCheckoutAndSave took 4.04 sec
 [2024.10.10-15.40.29:273][916]LogSlate: Window 'Save Level As' being destroyed
+[2024.10.10-15.41.10:256][259]LogUObjectHash: Compacting FUObjectHashTables data took   0.45ms
+[2024.10.10-15.41.10:258][259]Cmd: OBJ SAVEPACKAGE PACKAGE="/Temp/Untitled_1" FILE="../../../../../Old_Files/Unreal_C/CppTut/Saved/Autosaves/Temp/Untitled_1_Auto1.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2024.10.10-15.41.10:263][259]LogPackageLocalizationCache: Processed 46 localized package path(s) for 1 prioritized culture(s) in 0.004778 seconds
+[2024.10.10-15.41.10:304][259]LogSavePackage: Moving output files for package: /Temp/Autosaves/Temp/Untitled_1_Auto1
+[2024.10.10-15.41.10:305][259]LogSavePackage: Moving '../../../../../Old_Files/Unreal_C/CppTut/Saved/Untitled_1_Auto1C94951794238290C75310EA6C303F6B6.tmp' to '../../../../../Old_Files/Unreal_C/CppTut/Saved/Autosaves/Temp/Untitled_1_Auto1.umap'
+[2024.10.10-15.41.10:313][259]LogAssetRegistry: Warning: ScanPathsSynchronous: ../../../../../Old_Files/Unreal_C/CppTut/Saved/Autosaves/Temp/Untitled_1_Auto1.umap is in the /Temp path, will not scan.
+[2024.10.10-15.41.10:313][259]LogAssetRegistry: Warning: ScanPathsSynchronous: /Temp/__ExternalActors__/Autosaves/Temp/Untitled_1_Auto1 is in the /Temp path, will not scan.
+[2024.10.10-15.41.10:313][259]LogAssetRegistry: Warning: ScanPathsSynchronous: /Temp/__ExternalObjects__/Autosaves/Temp/Untitled_1_Auto1 is in the /Temp path, will not scan.
+[2024.10.10-15.41.10:313][259]LogFileHelpers: Editor autosave (incl. external actors) for '/Temp/Untitled_1' took 0.062
+[2024.10.10-15.41.10:313][259]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.062
+[2024.10.10-15.42.22:988][797]LogSlate: Took 0.001301 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2024.10.10-15.48.24:363][351]Running D:/Epic Games/UE_5.3/Engine/Build/BatchFiles/Build.bat  -projectfiles -project="D:/Old_Files/Unreal_C/CppTut/CppTut.uproject" -game -rocket -progress
+[2024.10.10-15.48.24:490][351]Using bundled DotNet SDK version: 6.0.302
+[2024.10.10-15.48.24:490][351]Running UnrealBuildTool: dotnet "..\..\Engine\Binaries\DotNET\UnrealBuildTool\UnrealBuildTool.dll" -projectfiles -project="D:/Old_Files/Unreal_C/CppTut/CppTut.uproject" -game -rocket -progress
+[2024.10.10-15.48.24:892][351]Log file: C:\Users\Billy\AppData\Local\UnrealBuildTool\Log_GPF.txt
+[2024.10.10-15.48.25:295][351]
+[2024.10.10-15.48.25:295][351]Generating VisualStudio project files:
+[2024.10.10-15.48.25:395][351]Discovering modules, targets and source code for project...
+[2024.10.10-15.48.27:407][351]Binding IntelliSense data...
+[2024.10.10-15.48.32:141][351]Binding IntelliSense data... 100%
+[2024.10.10-15.48.32:141][351]Creating common properties file...
+[2024.10.10-15.48.32:141][351]Creating common properties file... 0%
+[2024.10.10-15.48.32:141][351]Writing project files...
+[2024.10.10-15.48.34:968][351]Writing project files... 100%
+[2024.10.10-15.48.34:969][351]
+[2024.10.10-15.48.34:969][351]Generating QueryTargets data for editor...
+[2024.10.10-15.48.35:279][351]LogLiveCoding: Display: Starting Live Coding compile.
+[2024.10.10-15.48.35:357][351]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2024.10.10-15.48.35:401][351]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2024.10.10-15.48.35:414][351]LogSlate: Window 'Add C++ Class' being destroyed
+[2024.10.10-15.48.35:455][351]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2024.10.10-15.48.35:461][351]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2024.10.10-15.48.35:506][352]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2024.10.10-15.48.35:512][352]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2024.10.10-15.48.35:839][353]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2024.10.10-15.48.35:865][353]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2024.10.10-15.48.36:173][354]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2024.10.10-15.48.36:202][354]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2024.10.10-15.48.36:505][355]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2024.10.10-15.48.36:532][355]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2024.10.10-15.48.36:840][356]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2024.10.10-15.48.36:865][356]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2024.10.10-15.48.37:173][357]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2024.10.10-15.48.37:183][357]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2024.10.10-15.48.37:506][358]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2024.10.10-15.48.37:512][358]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2024.10.10-15.48.37:840][359]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2024.10.10-15.48.37:845][359]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2024.10.10-15.48.38:177][360]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2024.10.10-15.48.38:188][360]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2024.10.10-15.48.38:506][361]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2024.10.10-15.48.38:513][361]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2024.10.10-15.48.38:843][362]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2024.10.10-15.48.38:857][362]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2024.10.10-15.48.39:174][363]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2024.10.10-15.48.39:180][363]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2024.10.10-15.48.39:506][364]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2024.10.10-15.48.39:512][364]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2024.10.10-15.48.39:842][365]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2024.10.10-15.48.39:854][365]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2024.10.10-15.48.40:174][366]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2024.10.10-15.48.40:180][366]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2024.10.10-15.48.40:506][367]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2024.10.10-15.48.40:512][367]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2024.10.10-15.48.40:868][368]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2024.10.10-15.48.40:884][368]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2024.10.10-15.48.41:173][369]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2024.10.10-15.48.41:179][369]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2024.10.10-15.48.41:507][370]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2024.10.10-15.48.41:512][370]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2024.10.10-15.48.41:840][371]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2024.10.10-15.48.41:846][371]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2024.10.10-15.48.42:173][372]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2024.10.10-15.48.42:179][372]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2024.10.10-15.48.42:507][373]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2024.10.10-15.48.42:513][373]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2024.10.10-15.48.42:840][374]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2024.10.10-15.48.42:845][374]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2024.10.10-15.48.43:173][375]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2024.10.10-15.48.43:179][375]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2024.10.10-15.48.43:512][376]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2024.10.10-15.48.43:518][376]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2024.10.10-15.48.43:840][377]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2024.10.10-15.48.43:845][377]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2024.10.10-15.48.44:174][378]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2024.10.10-15.48.44:179][378]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2024.10.10-15.48.44:512][379]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2024.10.10-15.48.44:517][379]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2024.10.10-15.48.44:842][380]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2024.10.10-15.48.44:848][380]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2024.10.10-15.48.45:176][381]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2024.10.10-15.48.45:181][381]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2024.10.10-15.48.45:508][382]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2024.10.10-15.48.45:513][382]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2024.10.10-15.48.45:843][383]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2024.10.10-15.48.45:849][383]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2024.10.10-15.48.46:177][384]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2024.10.10-15.48.46:183][384]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2024.10.10-15.48.46:511][385]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2024.10.10-15.48.46:515][385]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2024.10.10-15.48.46:843][386]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2024.10.10-15.48.46:849][386]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2024.10.10-15.48.47:177][387]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2024.10.10-15.48.47:182][387]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2024.10.10-15.48.47:510][388]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2024.10.10-15.48.47:516][388]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2024.10.10-15.48.47:844][389]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2024.10.10-15.48.47:849][389]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2024.10.10-15.48.48:177][390]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2024.10.10-15.48.48:182][390]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2024.10.10-15.48.48:510][391]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2024.10.10-15.48.48:516][391]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2024.10.10-15.48.48:844][392]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2024.10.10-15.48.48:849][392]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2024.10.10-15.48.49:204][393]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2024.10.10-15.48.49:209][393]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2024.10.10-15.48.49:510][394]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2024.10.10-15.48.49:516][394]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2024.10.10-15.48.49:843][395]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2024.10.10-15.48.49:850][395]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2024.10.10-15.48.50:177][396]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2024.10.10-15.48.50:182][396]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2024.10.10-15.48.50:511][397]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2024.10.10-15.48.50:516][397]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2024.10.10-15.48.50:845][398]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2024.10.10-15.48.50:850][398]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2024.10.10-15.48.51:177][399]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2024.10.10-15.48.51:182][399]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2024.10.10-15.48.51:511][400]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2024.10.10-15.48.51:516][400]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2024.10.10-15.48.51:857][401]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2024.10.10-15.48.51:862][401]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2024.10.10-15.48.52:178][402]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2024.10.10-15.48.52:183][402]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2024.10.10-15.48.52:511][403]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2024.10.10-15.48.52:517][403]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2024.10.10-15.48.52:858][404]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2024.10.10-15.48.52:862][404]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2024.10.10-15.48.53:178][405]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2024.10.10-15.48.53:188][405]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2024.10.10-15.48.53:512][406]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2024.10.10-15.48.53:517][406]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2024.10.10-15.48.53:844][407]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2024.10.10-15.48.53:849][407]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2024.10.10-15.48.54:178][408]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2024.10.10-15.48.54:183][408]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2024.10.10-15.48.54:512][409]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2024.10.10-15.48.54:517][409]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2024.10.10-15.48.54:845][410]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2024.10.10-15.48.54:850][410]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2024.10.10-15.48.55:178][411]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2024.10.10-15.48.55:183][411]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2024.10.10-15.48.55:512][412]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2024.10.10-15.48.55:516][412]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2024.10.10-15.48.55:845][413]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2024.10.10-15.48.55:850][413]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2024.10.10-15.48.56:178][414]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2024.10.10-15.48.56:183][414]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2024.10.10-15.48.56:535][415]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2024.10.10-15.48.56:540][415]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2024.10.10-15.48.56:846][416]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2024.10.10-15.48.56:851][416]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2024.10.10-15.48.57:179][417]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2024.10.10-15.48.57:184][417]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2024.10.10-15.48.57:512][418]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2024.10.10-15.48.57:518][418]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2024.10.10-15.48.57:846][419]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2024.10.10-15.48.57:851][419]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2024.10.10-15.48.58:179][420]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2024.10.10-15.48.58:186][420]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2024.10.10-15.48.58:512][421]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2024.10.10-15.48.58:517][421]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2024.10.10-15.48.58:845][422]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2024.10.10-15.48.58:851][422]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2024.10.10-15.48.59:179][423]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2024.10.10-15.48.59:198][423]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2024.10.10-15.48.59:513][424]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2024.10.10-15.48.59:519][424]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2024.10.10-15.48.59:848][425]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2024.10.10-15.48.59:853][425]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2024.10.10-15.49.00:179][426]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2024.10.10-15.49.00:185][426]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2024.10.10-15.49.00:513][427]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2024.10.10-15.49.00:518][427]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2024.10.10-15.49.00:846][428]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2024.10.10-15.49.00:852][428]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2024.10.10-15.49.01:180][429]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2024.10.10-15.49.01:185][429]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2024.10.10-15.49.01:513][430]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2024.10.10-15.49.01:519][430]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2024.10.10-15.49.01:870][431]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2024.10.10-15.49.01:876][431]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2024.10.10-15.49.02:180][432]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2024.10.10-15.49.02:185][432]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2024.10.10-15.49.02:513][433]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2024.10.10-15.49.02:518][433]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2024.10.10-15.49.12:300][458]LogLiveCoding: Display:    Creating library D:\Old_Files\Unreal_C\CppTut\Binaries\Win64\UnrealEditor-CppTut.patch_0.lib and object D:\Old_Files\Unreal_C\CppTut\Binaries\Win64\UnrealEditor-CppTut.patch_0.exp
+[2024.10.10-15.49.12:516][459]LogClass: Could not find existing package /Script/CppTut for reload of class MoveComponent, assuming a new package.
+[2024.10.10-15.49.12:625][459]LogUObjectHash: Compacting FUObjectHashTables data took   0.58ms
+[2024.10.10-15.49.12:784][460]Display: Reload/Re-instancing Complete: 1 package new, 1 class new
+[2024.10.10-15.49.12:785][460]LogLiveCoding: Warning: Live coding succeeded, data type changes may cause packaging to fail if assets reference the new or updated data types
+[2024.10.10-15.52.56:064][691]LogLiveCoding: Display: Starting Live Coding compile.
+[2024.10.10-15.53.01:430][707]LogLiveCoding: Display:    Creating library D:\Old_Files\Unreal_C\CppTut\Binaries\Win64\UnrealEditor-CppTut.patch_1.lib and object D:\Old_Files\Unreal_C\CppTut\Binaries\Win64\UnrealEditor-CppTut.patch_1.exp
+[2024.10.10-15.53.01:756][708]LogClass: UPackage /Script/CppTut Reload.
+[2024.10.10-15.53.01:756][708]LogClass: UClass MoveComponent Reload.
+[2024.10.10-15.53.01:756][708]LogClass: Could not find existing class MoveComponent in package /Script/CppTut for reload, assuming new or modified class
+[2024.10.10-15.53.01:778][708]Re-instancing MoveComponent after reload.
+[2024.10.10-15.53.01:832][708]LogUObjectHash: Compacting FUObjectHashTables data took   0.53ms
+[2024.10.10-15.53.02:072][709]Display: Reload/Re-instancing Complete: 1 package changed, 1 class changed
+[2024.10.10-15.53.02:072][709]LogLiveCoding: Warning: Live coding succeeded, data type changes may cause packaging to fail if assets reference the new or updated data types
+[2024.10.10-15.54.29:599][888]LogUObjectHash: Compacting FUObjectHashTables data took   0.22ms
+[2024.10.10-15.54.29:601][888]LogFileHelpers: Editor autosave (incl. external actors) for '/Temp/Untitled_1' took 0.005
+[2024.10.10-16.04.30:065][689]LogUObjectHash: Compacting FUObjectHashTables data took   0.36ms
+[2024.10.10-16.04.30:066][689]LogFileHelpers: Editor autosave (incl. external actors) for '/Temp/Untitled_1' took 0.005
+[2024.10.10-16.05.07:752][ 24]LogLiveCoding: Display: Starting Live Coding compile.
+[2024.10.10-16.05.13:894][ 43]LogLiveCoding: Display:    Creating library D:\Old_Files\Unreal_C\CppTut\Binaries\Win64\UnrealEditor-CppTut.patch_2.lib and object D:\Old_Files\Unreal_C\CppTut\Binaries\Win64\UnrealEditor-CppTut.patch_2.exp
+[2024.10.10-16.05.14:139][ 44]LogClass: UClass MoveComponent Reload.
+[2024.10.10-16.05.14:139][ 44]LogClass: Could not find existing class MoveComponent in package /Script/CppTut for reload, assuming new or modified class
+[2024.10.10-16.05.14:141][ 44]Re-instancing MoveComponent after reload.
+[2024.10.10-16.05.14:206][ 44]LogOutputDevice: Warning: 
+
+Script Stack (0 frames) :
+
+[2024.10.10-16.05.14:548][ 44]LogStats: FPlatformStackWalk::StackWalkAndDump -  0.342 s
+[2024.10.10-16.05.14:548][ 44]LogOutputDevice: Error: === Handled ensure: ===
+[2024.10.10-16.05.14:548][ 44]LogOutputDevice: Error: 
+[2024.10.10-16.05.14:548][ 44]LogOutputDevice: Error: Ensure condition failed: GIsTransacting  [File:D:\build\++UE5\Sync\Engine\Source\Runtime\Engine\Private\Components\SceneComponent.cpp] [Line: 1256] 
+[2024.10.10-16.05.14:548][ 44]LogOutputDevice: Error: 
+[2024.10.10-16.05.14:548][ 44]LogOutputDevice: Error: Stack: 
+[2024.10.10-16.05.14:548][ 44]LogOutputDevice: Error: [Callstack] 0x00007ff805627409 UnrealEditor-Engine.dll!UnknownFunction []
+[2024.10.10-16.05.14:548][ 44]LogOutputDevice: Error: [Callstack] 0x00007ff805486e48 UnrealEditor-Engine.dll!UnknownFunction []
+[2024.10.10-16.05.14:548][ 44]LogOutputDevice: Error: [Callstack] 0x00007ff8092e3eae UnrealEditor-CoreUObject.dll!UnknownFunction []
+[2024.10.10-16.05.14:548][ 44]LogOutputDevice: Error: [Callstack] 0x00007ff809233f3e UnrealEditor-CoreUObject.dll!UnknownFunction []
+[2024.10.10-16.05.14:548][ 44]LogOutputDevice: Error: [Callstack] 0x00007ff809171556 UnrealEditor-CoreUObject.dll!UnknownFunction []
+[2024.10.10-16.05.14:548][ 44]LogOutputDevice: Error: [Callstack] 0x00007ff80919ecb3 UnrealEditor-CoreUObject.dll!UnknownFunction []
+[2024.10.10-16.05.14:548][ 44]LogOutputDevice: Error: [Callstack] 0x00007ff80919eaed UnrealEditor-CoreUObject.dll!UnknownFunction []
+[2024.10.10-16.05.14:548][ 44]LogOutputDevice: Error: [Callstack] 0x00007fffe37d12c8 UnrealEditor-LiveCoding.dll!UnknownFunction []
+[2024.10.10-16.05.14:548][ 44]LogOutputDevice: Error: [Callstack] 0x00007fffe37e8813 UnrealEditor-LiveCoding.dll!UnknownFunction []
+[2024.10.10-16.05.14:548][ 44]LogOutputDevice: Error: [Callstack] 0x00007fffe37d88c7 UnrealEditor-LiveCoding.dll!UnknownFunction []
+[2024.10.10-16.05.14:548][ 44]LogOutputDevice: Error: [Callstack] 0x00007ff6c0a305e4 UnrealEditor.exe!UnknownFunction []
+[2024.10.10-16.05.14:548][ 44]LogOutputDevice: Error: [Callstack] 0x00007ff6c0a1d5ff UnrealEditor.exe!UnknownFunction []
+[2024.10.10-16.05.14:548][ 44]LogOutputDevice: Error: [Callstack] 0x00007ff6c0a3d28c UnrealEditor.exe!UnknownFunction []
+[2024.10.10-16.05.14:548][ 44]LogOutputDevice: Error: [Callstack] 0x00007ff6c0a3d37a UnrealEditor.exe!UnknownFunction []
+[2024.10.10-16.05.14:548][ 44]LogOutputDevice: Error: [Callstack] 0x00007ff6c0a40854 UnrealEditor.exe!UnknownFunction []
+[2024.10.10-16.05.14:548][ 44]LogOutputDevice: Error: [Callstack] 0x00007ff6c0a56984 UnrealEditor.exe!UnknownFunction []
+[2024.10.10-16.05.14:548][ 44]LogOutputDevice: Error: [Callstack] 0x00007ff6c0a59d7a UnrealEditor.exe!UnknownFunction []
+[2024.10.10-16.05.14:548][ 44]LogOutputDevice: Error: [Callstack] 0x00007ff94f88257d KERNEL32.DLL!UnknownFunction []
+[2024.10.10-16.05.14:548][ 44]LogOutputDevice: Error: [Callstack] 0x00007ff950a4af08 ntdll.dll!UnknownFunction []
+[2024.10.10-16.05.14:548][ 44]LogOutputDevice: Error: 
+[2024.10.10-16.05.14:561][ 44]LogStats:                SubmitErrorReport -  0.000 s
+[2024.10.10-16.05.17:583][ 44]LogStats:                    SendNewReport -  3.022 s
+[2024.10.10-16.05.17:583][ 44]LogStats:             FDebug::EnsureFailed -  3.377 s
+[2024.10.10-16.05.17:583][ 44]LogSceneComponent: Error: Component 'LIVECODING_MoveComponent_1 /Temp/Untitled_1.Untitled_1:PersistentLevel.StaticMeshActor_UAID_9C6B0019525E642402_1669364111.LIVECODING_MoveComponent_0' has 'ArrowComponent /Temp/Untitled_1.Untitled_1:PersistentLevel.StaticMeshActor_UAID_9C6B0019525E642402_1669364111.Arrow' in its AttachChildren array, however, 'ArrowComponent /Temp/Untitled_1.Untitled_1:PersistentLevel.StaticMeshActor_UAID_9C6B0019525E642402_1669364111.Arrow' believes it is attached to 'MoveComponent /Temp/Untitled_1.Untitled_1:PersistentLevel.StaticMeshActor_UAID_9C6B0019525E642402_1669364111.Move'
+[2024.10.10-16.05.17:584][ 44]LogUObjectHash: Compacting FUObjectHashTables data took   0.50ms
+[2024.10.10-16.05.17:774][ 45]Display: Reload/Re-instancing Complete: 1 class changed
+[2024.10.10-16.05.17:774][ 45]LogLiveCoding: Warning: Live coding succeeded, data type changes may cause packaging to fail if assets reference the new or updated data types
+[2024.10.10-16.05.21:462][313]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.10.10-16.05.21:471][313]LogContentBundle: [Untitled_1(Standalone)] Generating Streaming for 0 Content Bundles.
+[2024.10.10-16.05.21:471][313]LogWorldPartition: Display: GenerateStreaming for 'OpenWorld.Engine' started...
+[2024.10.10-16.05.21:634][313]LogWorldPartition: Display: GenerateStreaming for 'OpenWorld.Engine' took 162 ms (total: 374 ms)
+[2024.10.10-16.05.21:635][313]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.10.10-16.05.21:635][313]PIE: New page: PIE session: Untitled_1 (10 Oct 2024, 18:05:21)
+[2024.10.10-16.05.21:635][313]LogPlayLevel: Creating play world package: /Temp/UEDPIE_0_Untitled_1
+[2024.10.10-16.05.21:651][313]LogPlayLevel: PIE: StaticDuplicateObject took: (0.016068s)
+[2024.10.10-16.05.21:651][313]LogPlayLevel: PIE: Created PIE world by copying editor world from /Temp/Untitled_1.Untitled_1 to /Temp/UEDPIE_0_Untitled_1.Untitled_1 (0.016098s)
+[2024.10.10-16.05.21:655][313]LogUObjectHash: Compacting FUObjectHashTables data took   0.68ms
+[2024.10.10-16.05.21:656][313]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.10.10-16.05.21:656][313]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.10.10-16.05.21:656][313]LogAIModule: Creating AISystem for world Untitled_1
+[2024.10.10-16.05.21:661][313]LogWorldPartition: ULevel::OnLevelLoaded(Untitled_1)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2024.10.10-16.05.21:661][313]LogWorldPartition: Display: WorldPartition initialize started...
+[2024.10.10-16.05.21:661][313]LogWorldPartition: UWorldPartition::Initialize : World = Untitled_1, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2024.10.10-16.05.21:661][313]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2024.10.10-16.05.21:664][313]LogContentBundle: [Untitled_1(Standalone)] Creating new contrainer.
+[2024.10.10-16.05.21:664][313]LogWorldPartition: Display: WorldPartition initialize took 2 ms (total: 539 ms)
+[2024.10.10-16.05.21:664][313]LogPlayLevel: PIE: World Init took: (0.007608s)
+[2024.10.10-16.05.21:664][313]LogAudio: Display: Creating Audio Device:                 Id: 3, Scope: Unique, Realtime: True
+[2024.10.10-16.05.21:664][313]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.10.10-16.05.21:664][313]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.10.10-16.05.21:664][313]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.10.10-16.05.21:664][313]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.10.10-16.05.21:664][313]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.10.10-16.05.21:664][313]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.10.10-16.05.21:664][313]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.10.10-16.05.21:664][313]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.10.10-16.05.21:664][313]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.10.10-16.05.21:664][313]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.10.10-16.05.21:664][313]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.10.10-16.05.21:666][313]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.10.10-16.05.21:694][313]LogAudioMixer: Display: Using Audio Hardware Device SAMSUNG (NVIDIA High Definition Audio)
+[2024.10.10-16.05.21:695][313]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.10.10-16.05.21:695][313]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.10.10-16.05.21:695][313]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.10.10-16.05.21:696][313]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=3
+[2024.10.10-16.05.21:696][313]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=3
+[2024.10.10-16.05.21:697][313]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=3
+[2024.10.10-16.05.21:697][313]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=3
+[2024.10.10-16.05.21:697][313]LogInit: FAudioDevice initialized with ID 3.
+[2024.10.10-16.05.21:697][313]LogAudio: Display: Audio Device (ID: 3) registered with world 'Untitled_1'.
+[2024.10.10-16.05.21:697][313]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 3
+[2024.10.10-16.05.21:699][313]LogLoad: Game class is 'GameModeBase'
+[2024.10.10-16.05.21:700][313]LogWorld: Bringing World /Temp/UEDPIE_0_Untitled_1.Untitled_1 up for play (max tick rate 0) at 2024.10.10-17.05.21
+[2024.10.10-16.05.21:700][313]LogWorld: Bringing up level for play took: 0.000681
+[2024.10.10-16.05.21:702][313]LogOnline: OSS: Created online subsystem instance for: :Context_4
+[2024.10.10-16.05.21:703][313]LogWorldPartition: UWorldPartitionStreamingPolicy: CellsToActivate(45), CellsToLoad(0), CellsToUnload(0)
+[2024.10.10-16.05.21:703][313]LogWorldPartition: UWorldPartitionStreamingPolicy: Sources[0] = X=-200.000 Y=0.000 Z=92.000,P=0.000000 Y=180.000000 R=-0.000000
+[2024.10.10-16.05.21:708][313]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Temp/Untitled_1_InstanceOf_/Engine/__ExternalActors__/Maps/Templates/OpenWorld/E/EU/63CUG82HPJ7AU9XI6H86US.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2024.10.10-16.05.21:708][313]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Temp/Untitled_1_InstanceOf_/Engine/__ExternalActors__/Maps/Templates/OpenWorld/D/M8/GQIMTIO02VU16EAMBW9L76.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2024.10.10-16.05.21:708][313]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Temp/Untitled_1_InstanceOf_/Engine/__ExternalActors__/Maps/Templates/OpenWorld/C/TA/XTMB7SD5DPQMBDIFK6V7KE.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2024.10.10-16.05.21:708][313]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Temp/Untitled_1_InstanceOf_/Engine/__ExternalActors__/Maps/Templates/OpenWorld/C/MC/T90MSNLC1N3FYSDD8DJNV6.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2024.10.10-16.05.21:708][313]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Temp/Untitled_1_InstanceOf_/Engine/__ExternalActors__/Maps/Templates/OpenWorld/C/5Q/HI57PNFOMT4R3DFEUAUAAZ.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2024.10.10-16.05.21:708][313]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Temp/Untitled_1_InstanceOf_/Engine/__ExternalActors__/Maps/Templates/OpenWorld/B/YW/4PDM70LMFYN738TP6ZC2KT.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2024.10.10-16.05.21:708][313]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Temp/Untitled_1_InstanceOf_/Engine/__ExternalActors__/Maps/Templates/OpenWorld/B/YQ/3SACEP11KP3LBBZUIC1NN0.StaticMesh_HLOD0_Instancing_3 being ready before playing
+[2024.10.10-16.05.21:708][313]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Temp/Untitled_1_InstanceOf_/Engine/__ExternalActors__/Maps/Templates/OpenWorld/B/YQ/3SACEP11KP3LBBZUIC1NN0.StaticMesh_HLOD0_Instancing_2 being ready before playing
+[2024.10.10-16.05.21:708][313]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Temp/Untitled_1_InstanceOf_/Engine/__ExternalActors__/Maps/Templates/OpenWorld/B/Y9/55J55ENTD1508PJ3HQKWYC.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2024.10.10-16.05.21:708][313]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Temp/Untitled_1_InstanceOf_/Engine/__ExternalActors__/Maps/Templates/OpenWorld/A/T5/AEE04GGB4Y76DS1MLT7XEF.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2024.10.10-16.05.21:708][313]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Temp/Untitled_1_InstanceOf_/Engine/__ExternalActors__/Maps/Templates/OpenWorld/A/PF/7UF6Y8RQRYQKPKQOY83AE7.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2024.10.10-16.05.21:708][313]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Temp/Untitled_1_InstanceOf_/Engine/__ExternalActors__/Maps/Templates/OpenWorld/A/KE/351MYYNV422OLA6PVLO6QW.StaticMesh_HLOD0_Instancing_3 being ready before playing
+[2024.10.10-16.05.21:708][313]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Temp/Untitled_1_InstanceOf_/Engine/__ExternalActors__/Maps/Templates/OpenWorld/A/KE/351MYYNV422OLA6PVLO6QW.StaticMesh_HLOD0_Instancing_2 being ready before playing
+[2024.10.10-16.05.21:708][313]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Temp/Untitled_1_InstanceOf_/Engine/__ExternalActors__/Maps/Templates/OpenWorld/A/KD/25ND2UZMJO2BUT4062MHM8.StaticMesh_HLOD0_Instancing_3 being ready before playing
+[2024.10.10-16.05.21:708][313]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Temp/Untitled_1_InstanceOf_/Engine/__ExternalActors__/Maps/Templates/OpenWorld/A/KD/25ND2UZMJO2BUT4062MHM8.StaticMesh_HLOD0_Instancing_2 being ready before playing
+[2024.10.10-16.05.21:708][313]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Temp/Untitled_1_InstanceOf_/Engine/__ExternalActors__/Maps/Templates/OpenWorld/9/XU/Q26DVT09FX9KRM8LZ6C3NV.StaticMesh_HLOD0_Instancing_3 being ready before playing
+[2024.10.10-16.05.21:708][313]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Temp/Untitled_1_InstanceOf_/Engine/__ExternalActors__/Maps/Templates/OpenWorld/9/XU/Q26DVT09FX9KRM8LZ6C3NV.StaticMesh_HLOD0_Instancing_2 being ready before playing
+[2024.10.10-16.05.21:708][313]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Temp/Untitled_1_InstanceOf_/Engine/__ExternalActors__/Maps/Templates/OpenWorld/9/OM/XCRXR7AX9N02DWSO3AJ7T2.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2024.10.10-16.05.21:708][313]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Temp/Untitled_1_InstanceOf_/Engine/__ExternalActors__/Maps/Templates/OpenWorld/9/6H/LXUWRP7PKVYPB32OL0QJHF.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2024.10.10-16.05.21:708][313]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Temp/Untitled_1_InstanceOf_/Engine/__ExternalActors__/Maps/Templates/OpenWorld/9/0K/SKSFWGWT64ZTBQ574PZ1ZF.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2024.10.10-16.05.21:708][313]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Temp/Untitled_1_InstanceOf_/Engine/__ExternalActors__/Maps/Templates/OpenWorld/8/ZU/UWRG29GUPJZKFZAYG1TQUT.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2024.10.10-16.05.21:708][313]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Temp/Untitled_1_InstanceOf_/Engine/__ExternalActors__/Maps/Templates/OpenWorld/8/YI/FUI9M91TM68656D5H2OP7A.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2024.10.10-16.05.21:708][313]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Temp/Untitled_1_InstanceOf_/Engine/__ExternalActors__/Maps/Templates/OpenWorld/8/WF/ZD9SIAGDIBFKHQPVRWFLI7.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2024.10.10-16.05.21:708][313]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Temp/Untitled_1_InstanceOf_/Engine/__ExternalActors__/Maps/Templates/OpenWorld/8/UZ/3WZYLEW6XVOAJV62G4CF1F.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2024.10.10-16.05.21:708][313]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Temp/Untitled_1_InstanceOf_/Engine/__ExternalActors__/Maps/Templates/OpenWorld/8/PT/1LV3KKA8Y343SU63CJA3TN.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2024.10.10-16.05.21:708][313]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Temp/Untitled_1_InstanceOf_/Engine/__ExternalActors__/Maps/Templates/OpenWorld/8/C5/QZAOJ1BX90TVHU50TDMXWE.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2024.10.10-16.05.21:708][313]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Temp/Untitled_1_InstanceOf_/Engine/__ExternalActors__/Maps/Templates/OpenWorld/7/XK/NNQHTKCQMTGL488GWT03IL.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2024.10.10-16.05.21:708][313]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Temp/Untitled_1_InstanceOf_/Engine/__ExternalActors__/Maps/Templates/OpenWorld/7/9A/RM5VGW9SWL7XFY8V7V35Y5.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2024.10.10-16.05.21:708][313]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Temp/Untitled_1_InstanceOf_/Engine/__ExternalActors__/Maps/Templates/OpenWorld/6/9S/NHQHZ9W5SMORJBKCGH1I6Q.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2024.10.10-16.05.21:708][313]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Temp/Untitled_1_InstanceOf_/Engine/__ExternalActors__/Maps/Templates/OpenWorld/5/R3/I2Z02EBENSJ39ESVCQHBWH.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2024.10.10-16.05.21:708][313]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Temp/Untitled_1_InstanceOf_/Engine/__ExternalActors__/Maps/Templates/OpenWorld/5/GM/HMG83JAIRHTNODUZIW85P3.StaticMesh_HLOD0_Instancing_3 being ready before playing
+[2024.10.10-16.05.21:709][313]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Temp/Untitled_1_InstanceOf_/Engine/__ExternalActors__/Maps/Templates/OpenWorld/5/GM/HMG83JAIRHTNODUZIW85P3.StaticMesh_HLOD0_Instancing_2 being ready before playing
+[2024.10.10-16.05.21:709][313]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Temp/Untitled_1_InstanceOf_/Engine/__ExternalActors__/Maps/Templates/OpenWorld/5/23/0IBZI4MKG13OOTSZ1ZN2JI.StaticMesh_HLOD0_Instancing_3 being ready before playing
+[2024.10.10-16.05.21:709][313]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Temp/Untitled_1_InstanceOf_/Engine/__ExternalActors__/Maps/Templates/OpenWorld/5/23/0IBZI4MKG13OOTSZ1ZN2JI.StaticMesh_HLOD0_Instancing_2 being ready before playing
+[2024.10.10-16.05.21:709][313]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Temp/Untitled_1_InstanceOf_/Engine/__ExternalActors__/Maps/Templates/OpenWorld/4/J0/F0J9D4FOG1IQ7OFGP5NCN1.StaticMesh_HLOD0_Instancing_3 being ready before playing
+[2024.10.10-16.05.21:709][313]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Temp/Untitled_1_InstanceOf_/Engine/__ExternalActors__/Maps/Templates/OpenWorld/4/J0/F0J9D4FOG1IQ7OFGP5NCN1.StaticMesh_HLOD0_Instancing_2 being ready before playing
+[2024.10.10-16.05.21:709][313]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Temp/Untitled_1_InstanceOf_/Engine/__ExternalActors__/Maps/Templates/OpenWorld/4/BR/UTW89AD6D1KGZYE3RMF3LR.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2024.10.10-16.05.21:709][313]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Temp/Untitled_1_InstanceOf_/Engine/__ExternalActors__/Maps/Templates/OpenWorld/3/XX/RT7XOEFGJKU063ZXYU08PI.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2024.10.10-16.05.21:709][313]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Temp/Untitled_1_InstanceOf_/Engine/__ExternalActors__/Maps/Templates/OpenWorld/3/VS/PNQQL5121CWWCLEWFYOQVR.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2024.10.10-16.05.21:709][313]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Temp/Untitled_1_InstanceOf_/Engine/__ExternalActors__/Maps/Templates/OpenWorld/3/Q8/U15CIOFLH4FN97OIJYGUF0.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2024.10.10-16.05.21:709][313]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Temp/Untitled_1_InstanceOf_/Engine/__ExternalActors__/Maps/Templates/OpenWorld/3/D7/A6JZ5BHMJX8ANM3V6H0SP6.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2024.10.10-16.05.21:709][313]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Temp/Untitled_1_InstanceOf_/Engine/__ExternalActors__/Maps/Templates/OpenWorld/3/BS/AESQY0IKN8ORBORQS8ZTPW.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2024.10.10-16.05.21:709][313]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Temp/Untitled_1_InstanceOf_/Engine/__ExternalActors__/Maps/Templates/OpenWorld/3/6Z/IRSE5EDOROHQWRI5PJLZUS.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2024.10.10-16.05.21:709][313]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Temp/Untitled_1_InstanceOf_/Engine/__ExternalActors__/Maps/Templates/OpenWorld/3/45/UADOSGI5V60783LWBOCURH.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2024.10.10-16.05.21:709][313]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Temp/Untitled_1_InstanceOf_/Engine/__ExternalActors__/Maps/Templates/OpenWorld/2/VN/GNQYF0DU6WM6BW4ZPLNNU3.StaticMesh_HLOD0_Instancing_3 being ready before playing
+[2024.10.10-16.05.21:709][313]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Temp/Untitled_1_InstanceOf_/Engine/__ExternalActors__/Maps/Templates/OpenWorld/2/VN/GNQYF0DU6WM6BW4ZPLNNU3.StaticMesh_HLOD0_Instancing_2 being ready before playing
+[2024.10.10-16.05.21:709][313]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Temp/Untitled_1_InstanceOf_/Engine/__ExternalActors__/Maps/Templates/OpenWorld/2/IC/POXDQIIS3QKXFKVLJZ30BW.StaticMesh_HLOD0_Instancing_3 being ready before playing
+[2024.10.10-16.05.21:709][313]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Temp/Untitled_1_InstanceOf_/Engine/__ExternalActors__/Maps/Templates/OpenWorld/2/IC/POXDQIIS3QKXFKVLJZ30BW.StaticMesh_HLOD0_Instancing_2 being ready before playing
+[2024.10.10-16.05.21:709][313]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Temp/Untitled_1_InstanceOf_/Engine/__ExternalActors__/Maps/Templates/OpenWorld/2/GZ/5RXZHXPL2MTZSNJ29QL670.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2024.10.10-16.05.21:709][313]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Temp/Untitled_1_InstanceOf_/Engine/__ExternalActors__/Maps/Templates/OpenWorld/2/GC/4JWLDTDNL8CZ6YE74OYLA1.StaticMesh_HLOD0_Instancing_3 being ready before playing
+[2024.10.10-16.05.21:709][313]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Temp/Untitled_1_InstanceOf_/Engine/__ExternalActors__/Maps/Templates/OpenWorld/2/GC/4JWLDTDNL8CZ6YE74OYLA1.StaticMesh_HLOD0_Instancing_2 being ready before playing
+[2024.10.10-16.05.21:709][313]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Temp/Untitled_1_InstanceOf_/Engine/__ExternalActors__/Maps/Templates/OpenWorld/2/FF/FIQJAJ1QQXKZL4LB5LGDII.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2024.10.10-16.05.21:709][313]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Temp/Untitled_1_InstanceOf_/Engine/__ExternalActors__/Maps/Templates/OpenWorld/2/CZ/ZFQ3H9N7J6HG98KZTMXHJU.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2024.10.10-16.05.21:709][313]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Temp/Untitled_1_InstanceOf_/Engine/__ExternalActors__/Maps/Templates/OpenWorld/2/4O/M6ZFUL20RQLTVOTJPDJUVM.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2024.10.10-16.05.21:709][313]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Temp/Untitled_1_InstanceOf_/Engine/__ExternalActors__/Maps/Templates/OpenWorld/1/GV/H2Z2SRDKP2UEP02UY2WR43.StaticMesh_HLOD0_Instancing_3 being ready before playing
+[2024.10.10-16.05.21:709][313]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Temp/Untitled_1_InstanceOf_/Engine/__ExternalActors__/Maps/Templates/OpenWorld/1/GV/H2Z2SRDKP2UEP02UY2WR43.StaticMesh_HLOD0_Instancing_2 being ready before playing
+[2024.10.10-16.05.21:709][313]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Temp/Untitled_1_InstanceOf_/Engine/__ExternalActors__/Maps/Templates/OpenWorld/1/69/OOMIOONZJ5VQYEI0DX83K4.StaticMesh_HLOD0_Instancing_7 being ready before playing
+[2024.10.10-16.05.21:709][313]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Temp/Untitled_1_InstanceOf_/Engine/__ExternalActors__/Maps/Templates/OpenWorld/1/69/OOMIOONZJ5VQYEI0DX83K4.StaticMesh_HLOD0_Instancing_6 being ready before playing
+[2024.10.10-16.05.21:709][313]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Temp/Untitled_1_InstanceOf_/Engine/__ExternalActors__/Maps/Templates/OpenWorld/1/69/OOMIOONZJ5VQYEI0DX83K4.StaticMesh_HLOD0_Instancing_5 being ready before playing
+[2024.10.10-16.05.21:709][313]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Temp/Untitled_1_InstanceOf_/Engine/__ExternalActors__/Maps/Templates/OpenWorld/1/69/OOMIOONZJ5VQYEI0DX83K4.StaticMesh_HLOD0_Instancing_4 being ready before playing
+[2024.10.10-16.05.21:709][313]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Temp/Untitled_1_InstanceOf_/Engine/__ExternalActors__/Maps/Templates/OpenWorld/0/ZS/QDCLRJH195LBQL6SG6MX08.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2024.10.10-16.05.21:709][313]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Temp/Untitled_1_InstanceOf_/Engine/__ExternalActors__/Maps/Templates/OpenWorld/0/FE/0EX8YTKENWM2LPVQE1CX9B.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2024.10.10-16.05.21:709][313]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Temp/Untitled_1_InstanceOf_/Engine/__ExternalActors__/Maps/Templates/OpenWorld/0/72/P9KZ1FM4U97NJSI8QUOA7D.StaticMesh_HLOD0_Instancing_3 being ready before playing
+[2024.10.10-16.05.21:709][313]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Temp/Untitled_1_InstanceOf_/Engine/__ExternalActors__/Maps/Templates/OpenWorld/0/72/P9KZ1FM4U97NJSI8QUOA7D.StaticMesh_HLOD0_Instancing_2 being ready before playing
+[2024.10.10-16.05.21:718][313]LogStreaming: Display: FlushAsyncLoading(): 56 QueuedPackages, 0 AsyncPackages
+[2024.10.10-16.05.22:272][313]PIE: Server logged in
+[2024.10.10-16.05.22:273][313]PIE: Play in editor total start time 0.802 seconds.
+[2024.10.10-16.05.30:310][992]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.10.10-16.05.30:310][992]LogWorld: BeginTearingDown for /Temp/UEDPIE_0_Untitled_1
+[2024.10.10-16.05.30:332][992]LogWorld: UWorld::CleanupWorld for Untitled_1, bSessionEnded=true, bCleanupResources=true
+[2024.10.10-16.05.30:333][992]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.10.10-16.05.30:333][992]LogContentBundle: [Untitled_1(Standalone)] Deleting container.
+[2024.10.10-16.05.30:335][992]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.10.10-16.05.30:338][992]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.10.10-16.05.30:347][992]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.10.10-16.05.30:348][992]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 3
+[2024.10.10-16.05.30:348][992]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=3
+[2024.10.10-16.05.30:349][992]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=3
+[2024.10.10-16.05.30:367][992]LogUObjectHash: Compacting FUObjectHashTables data took   0.67ms
+[2024.10.10-16.05.30:438][993]LogPlayLevel: Display: Destroying online subsystem :Context_4
+[2024.10.10-16.06.14:171][652]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.10.10-16.06.14:181][652]LogContentBundle: [Untitled_1(Standalone)] Generating Streaming for 0 Content Bundles.
+[2024.10.10-16.06.14:181][652]LogWorldPartition: Display: GenerateStreaming for 'OpenWorld.Engine' started...
+[2024.10.10-16.06.14:292][652]LogWorldPartition: Display: GenerateStreaming for 'OpenWorld.Engine' took 110 ms (total: 485 ms)
+[2024.10.10-16.06.14:292][652]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.10.10-16.06.14:292][652]PIE: New page: PIE session: Untitled_1 (10 Oct 2024, 18:06:14)
+[2024.10.10-16.06.14:292][652]LogPlayLevel: Creating play world package: /Temp/UEDPIE_0_Untitled_1
+[2024.10.10-16.06.14:319][652]LogPlayLevel: PIE: StaticDuplicateObject took: (0.026973s)
+[2024.10.10-16.06.14:319][652]LogPlayLevel: PIE: Created PIE world by copying editor world from /Temp/Untitled_1.Untitled_1 to /Temp/UEDPIE_0_Untitled_1.Untitled_1 (0.027007s)
+[2024.10.10-16.06.14:323][652]LogUObjectHash: Compacting FUObjectHashTables data took   0.55ms
+[2024.10.10-16.06.14:324][652]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.10.10-16.06.14:324][652]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.10.10-16.06.14:325][652]LogAIModule: Creating AISystem for world Untitled_1
+[2024.10.10-16.06.14:325][652]LogWorldPartition: ULevel::OnLevelLoaded(Untitled_1)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2024.10.10-16.06.14:326][652]LogWorldPartition: Display: WorldPartition initialize started...
+[2024.10.10-16.06.14:326][652]LogWorldPartition: UWorldPartition::Initialize : World = Untitled_1, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2024.10.10-16.06.14:326][652]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2024.10.10-16.06.14:329][652]LogContentBundle: [Untitled_1(Standalone)] Creating new contrainer.
+[2024.10.10-16.06.14:329][652]LogWorldPartition: Display: WorldPartition initialize took 3 ms (total: 543 ms)
+[2024.10.10-16.06.14:329][652]LogPlayLevel: PIE: World Init took: (0.004693s)
+[2024.10.10-16.06.14:329][652]LogAudio: Display: Creating Audio Device:                 Id: 4, Scope: Unique, Realtime: True
+[2024.10.10-16.06.14:329][652]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.10.10-16.06.14:329][652]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.10.10-16.06.14:329][652]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.10.10-16.06.14:329][652]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.10.10-16.06.14:330][652]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.10.10-16.06.14:330][652]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.10.10-16.06.14:330][652]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.10.10-16.06.14:330][652]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.10.10-16.06.14:330][652]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.10.10-16.06.14:330][652]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.10.10-16.06.14:330][652]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.10.10-16.06.14:332][652]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.10.10-16.06.14:360][652]LogAudioMixer: Display: Using Audio Hardware Device SAMSUNG (NVIDIA High Definition Audio)
+[2024.10.10-16.06.14:360][652]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.10.10-16.06.14:360][652]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.10.10-16.06.14:360][652]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.10.10-16.06.14:361][652]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=4
+[2024.10.10-16.06.14:361][652]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=4
+[2024.10.10-16.06.14:363][652]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=4
+[2024.10.10-16.06.14:363][652]LogInit: FAudioDevice initialized with ID 4.
+[2024.10.10-16.06.14:363][652]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=4
+[2024.10.10-16.06.14:363][652]LogAudio: Display: Audio Device (ID: 4) registered with world 'Untitled_1'.
+[2024.10.10-16.06.14:363][652]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 4
+[2024.10.10-16.06.14:366][652]LogLoad: Game class is 'GameModeBase'
+[2024.10.10-16.06.14:368][652]LogWorld: Bringing World /Temp/UEDPIE_0_Untitled_1.Untitled_1 up for play (max tick rate 0) at 2024.10.10-17.06.14
+[2024.10.10-16.06.14:368][652]LogWorld: Bringing up level for play took: 0.000886
+[2024.10.10-16.06.14:369][652]LogOnline: OSS: Created online subsystem instance for: :Context_5
+[2024.10.10-16.06.14:370][652]LogWorldPartition: UWorldPartitionStreamingPolicy: CellsToActivate(45), CellsToLoad(0), CellsToUnload(0)
+[2024.10.10-16.06.14:370][652]LogWorldPartition: UWorldPartitionStreamingPolicy: Sources[0] = X=-200.000 Y=0.000 Z=92.000,P=0.000000 Y=180.000000 R=-0.000000
+[2024.10.10-16.06.14:376][652]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Temp/Untitled_1_InstanceOf_/Engine/__ExternalActors__/Maps/Templates/OpenWorld/E/EU/63CUG82HPJ7AU9XI6H86US.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2024.10.10-16.06.14:376][652]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Temp/Untitled_1_InstanceOf_/Engine/__ExternalActors__/Maps/Templates/OpenWorld/D/M8/GQIMTIO02VU16EAMBW9L76.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2024.10.10-16.06.14:376][652]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Temp/Untitled_1_InstanceOf_/Engine/__ExternalActors__/Maps/Templates/OpenWorld/C/TA/XTMB7SD5DPQMBDIFK6V7KE.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2024.10.10-16.06.14:376][652]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Temp/Untitled_1_InstanceOf_/Engine/__ExternalActors__/Maps/Templates/OpenWorld/C/MC/T90MSNLC1N3FYSDD8DJNV6.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2024.10.10-16.06.14:376][652]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Temp/Untitled_1_InstanceOf_/Engine/__ExternalActors__/Maps/Templates/OpenWorld/C/5Q/HI57PNFOMT4R3DFEUAUAAZ.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2024.10.10-16.06.14:376][652]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Temp/Untitled_1_InstanceOf_/Engine/__ExternalActors__/Maps/Templates/OpenWorld/B/YW/4PDM70LMFYN738TP6ZC2KT.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2024.10.10-16.06.14:376][652]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Temp/Untitled_1_InstanceOf_/Engine/__ExternalActors__/Maps/Templates/OpenWorld/B/YQ/3SACEP11KP3LBBZUIC1NN0.StaticMesh_HLOD0_Instancing_3 being ready before playing
+[2024.10.10-16.06.14:376][652]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Temp/Untitled_1_InstanceOf_/Engine/__ExternalActors__/Maps/Templates/OpenWorld/B/YQ/3SACEP11KP3LBBZUIC1NN0.StaticMesh_HLOD0_Instancing_2 being ready before playing
+[2024.10.10-16.06.14:376][652]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Temp/Untitled_1_InstanceOf_/Engine/__ExternalActors__/Maps/Templates/OpenWorld/B/Y9/55J55ENTD1508PJ3HQKWYC.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2024.10.10-16.06.14:376][652]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Temp/Untitled_1_InstanceOf_/Engine/__ExternalActors__/Maps/Templates/OpenWorld/A/T5/AEE04GGB4Y76DS1MLT7XEF.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2024.10.10-16.06.14:376][652]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Temp/Untitled_1_InstanceOf_/Engine/__ExternalActors__/Maps/Templates/OpenWorld/A/PF/7UF6Y8RQRYQKPKQOY83AE7.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2024.10.10-16.06.14:376][652]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Temp/Untitled_1_InstanceOf_/Engine/__ExternalActors__/Maps/Templates/OpenWorld/A/KE/351MYYNV422OLA6PVLO6QW.StaticMesh_HLOD0_Instancing_3 being ready before playing
+[2024.10.10-16.06.14:376][652]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Temp/Untitled_1_InstanceOf_/Engine/__ExternalActors__/Maps/Templates/OpenWorld/A/KE/351MYYNV422OLA6PVLO6QW.StaticMesh_HLOD0_Instancing_2 being ready before playing
+[2024.10.10-16.06.14:376][652]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Temp/Untitled_1_InstanceOf_/Engine/__ExternalActors__/Maps/Templates/OpenWorld/A/KD/25ND2UZMJO2BUT4062MHM8.StaticMesh_HLOD0_Instancing_3 being ready before playing
+[2024.10.10-16.06.14:376][652]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Temp/Untitled_1_InstanceOf_/Engine/__ExternalActors__/Maps/Templates/OpenWorld/A/KD/25ND2UZMJO2BUT4062MHM8.StaticMesh_HLOD0_Instancing_2 being ready before playing
+[2024.10.10-16.06.14:376][652]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Temp/Untitled_1_InstanceOf_/Engine/__ExternalActors__/Maps/Templates/OpenWorld/9/XU/Q26DVT09FX9KRM8LZ6C3NV.StaticMesh_HLOD0_Instancing_3 being ready before playing
+[2024.10.10-16.06.14:376][652]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Temp/Untitled_1_InstanceOf_/Engine/__ExternalActors__/Maps/Templates/OpenWorld/9/XU/Q26DVT09FX9KRM8LZ6C3NV.StaticMesh_HLOD0_Instancing_2 being ready before playing
+[2024.10.10-16.06.14:376][652]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Temp/Untitled_1_InstanceOf_/Engine/__ExternalActors__/Maps/Templates/OpenWorld/9/OM/XCRXR7AX9N02DWSO3AJ7T2.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2024.10.10-16.06.14:376][652]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Temp/Untitled_1_InstanceOf_/Engine/__ExternalActors__/Maps/Templates/OpenWorld/9/6H/LXUWRP7PKVYPB32OL0QJHF.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2024.10.10-16.06.14:376][652]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Temp/Untitled_1_InstanceOf_/Engine/__ExternalActors__/Maps/Templates/OpenWorld/9/0K/SKSFWGWT64ZTBQ574PZ1ZF.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2024.10.10-16.06.14:376][652]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Temp/Untitled_1_InstanceOf_/Engine/__ExternalActors__/Maps/Templates/OpenWorld/8/ZU/UWRG29GUPJZKFZAYG1TQUT.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2024.10.10-16.06.14:376][652]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Temp/Untitled_1_InstanceOf_/Engine/__ExternalActors__/Maps/Templates/OpenWorld/8/YI/FUI9M91TM68656D5H2OP7A.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2024.10.10-16.06.14:376][652]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Temp/Untitled_1_InstanceOf_/Engine/__ExternalActors__/Maps/Templates/OpenWorld/8/WF/ZD9SIAGDIBFKHQPVRWFLI7.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2024.10.10-16.06.14:376][652]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Temp/Untitled_1_InstanceOf_/Engine/__ExternalActors__/Maps/Templates/OpenWorld/8/UZ/3WZYLEW6XVOAJV62G4CF1F.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2024.10.10-16.06.14:376][652]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Temp/Untitled_1_InstanceOf_/Engine/__ExternalActors__/Maps/Templates/OpenWorld/8/PT/1LV3KKA8Y343SU63CJA3TN.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2024.10.10-16.06.14:376][652]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Temp/Untitled_1_InstanceOf_/Engine/__ExternalActors__/Maps/Templates/OpenWorld/8/C5/QZAOJ1BX90TVHU50TDMXWE.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2024.10.10-16.06.14:376][652]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Temp/Untitled_1_InstanceOf_/Engine/__ExternalActors__/Maps/Templates/OpenWorld/7/XK/NNQHTKCQMTGL488GWT03IL.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2024.10.10-16.06.14:376][652]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Temp/Untitled_1_InstanceOf_/Engine/__ExternalActors__/Maps/Templates/OpenWorld/7/9A/RM5VGW9SWL7XFY8V7V35Y5.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2024.10.10-16.06.14:376][652]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Temp/Untitled_1_InstanceOf_/Engine/__ExternalActors__/Maps/Templates/OpenWorld/6/9S/NHQHZ9W5SMORJBKCGH1I6Q.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2024.10.10-16.06.14:376][652]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Temp/Untitled_1_InstanceOf_/Engine/__ExternalActors__/Maps/Templates/OpenWorld/5/R3/I2Z02EBENSJ39ESVCQHBWH.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2024.10.10-16.06.14:376][652]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Temp/Untitled_1_InstanceOf_/Engine/__ExternalActors__/Maps/Templates/OpenWorld/5/GM/HMG83JAIRHTNODUZIW85P3.StaticMesh_HLOD0_Instancing_3 being ready before playing
+[2024.10.10-16.06.14:376][652]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Temp/Untitled_1_InstanceOf_/Engine/__ExternalActors__/Maps/Templates/OpenWorld/5/GM/HMG83JAIRHTNODUZIW85P3.StaticMesh_HLOD0_Instancing_2 being ready before playing
+[2024.10.10-16.06.14:378][652]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Temp/Untitled_1_InstanceOf_/Engine/__ExternalActors__/Maps/Templates/OpenWorld/5/23/0IBZI4MKG13OOTSZ1ZN2JI.StaticMesh_HLOD0_Instancing_3 being ready before playing
+[2024.10.10-16.06.14:378][652]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Temp/Untitled_1_InstanceOf_/Engine/__ExternalActors__/Maps/Templates/OpenWorld/5/23/0IBZI4MKG13OOTSZ1ZN2JI.StaticMesh_HLOD0_Instancing_2 being ready before playing
+[2024.10.10-16.06.14:378][652]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Temp/Untitled_1_InstanceOf_/Engine/__ExternalActors__/Maps/Templates/OpenWorld/4/J0/F0J9D4FOG1IQ7OFGP5NCN1.StaticMesh_HLOD0_Instancing_3 being ready before playing
+[2024.10.10-16.06.14:378][652]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Temp/Untitled_1_InstanceOf_/Engine/__ExternalActors__/Maps/Templates/OpenWorld/4/J0/F0J9D4FOG1IQ7OFGP5NCN1.StaticMesh_HLOD0_Instancing_2 being ready before playing
+[2024.10.10-16.06.14:378][652]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Temp/Untitled_1_InstanceOf_/Engine/__ExternalActors__/Maps/Templates/OpenWorld/4/BR/UTW89AD6D1KGZYE3RMF3LR.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2024.10.10-16.06.14:378][652]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Temp/Untitled_1_InstanceOf_/Engine/__ExternalActors__/Maps/Templates/OpenWorld/3/XX/RT7XOEFGJKU063ZXYU08PI.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2024.10.10-16.06.14:378][652]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Temp/Untitled_1_InstanceOf_/Engine/__ExternalActors__/Maps/Templates/OpenWorld/3/VS/PNQQL5121CWWCLEWFYOQVR.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2024.10.10-16.06.14:378][652]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Temp/Untitled_1_InstanceOf_/Engine/__ExternalActors__/Maps/Templates/OpenWorld/3/Q8/U15CIOFLH4FN97OIJYGUF0.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2024.10.10-16.06.14:378][652]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Temp/Untitled_1_InstanceOf_/Engine/__ExternalActors__/Maps/Templates/OpenWorld/3/D7/A6JZ5BHMJX8ANM3V6H0SP6.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2024.10.10-16.06.14:378][652]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Temp/Untitled_1_InstanceOf_/Engine/__ExternalActors__/Maps/Templates/OpenWorld/3/BS/AESQY0IKN8ORBORQS8ZTPW.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2024.10.10-16.06.14:378][652]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Temp/Untitled_1_InstanceOf_/Engine/__ExternalActors__/Maps/Templates/OpenWorld/3/6Z/IRSE5EDOROHQWRI5PJLZUS.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2024.10.10-16.06.14:378][652]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Temp/Untitled_1_InstanceOf_/Engine/__ExternalActors__/Maps/Templates/OpenWorld/3/45/UADOSGI5V60783LWBOCURH.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2024.10.10-16.06.14:378][652]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Temp/Untitled_1_InstanceOf_/Engine/__ExternalActors__/Maps/Templates/OpenWorld/2/VN/GNQYF0DU6WM6BW4ZPLNNU3.StaticMesh_HLOD0_Instancing_3 being ready before playing
+[2024.10.10-16.06.14:378][652]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Temp/Untitled_1_InstanceOf_/Engine/__ExternalActors__/Maps/Templates/OpenWorld/2/VN/GNQYF0DU6WM6BW4ZPLNNU3.StaticMesh_HLOD0_Instancing_2 being ready before playing
+[2024.10.10-16.06.14:378][652]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Temp/Untitled_1_InstanceOf_/Engine/__ExternalActors__/Maps/Templates/OpenWorld/2/IC/POXDQIIS3QKXFKVLJZ30BW.StaticMesh_HLOD0_Instancing_3 being ready before playing
+[2024.10.10-16.06.14:378][652]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Temp/Untitled_1_InstanceOf_/Engine/__ExternalActors__/Maps/Templates/OpenWorld/2/IC/POXDQIIS3QKXFKVLJZ30BW.StaticMesh_HLOD0_Instancing_2 being ready before playing
+[2024.10.10-16.06.14:378][652]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Temp/Untitled_1_InstanceOf_/Engine/__ExternalActors__/Maps/Templates/OpenWorld/2/GZ/5RXZHXPL2MTZSNJ29QL670.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2024.10.10-16.06.14:378][652]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Temp/Untitled_1_InstanceOf_/Engine/__ExternalActors__/Maps/Templates/OpenWorld/2/GC/4JWLDTDNL8CZ6YE74OYLA1.StaticMesh_HLOD0_Instancing_3 being ready before playing
+[2024.10.10-16.06.14:378][652]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Temp/Untitled_1_InstanceOf_/Engine/__ExternalActors__/Maps/Templates/OpenWorld/2/GC/4JWLDTDNL8CZ6YE74OYLA1.StaticMesh_HLOD0_Instancing_2 being ready before playing
+[2024.10.10-16.06.14:378][652]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Temp/Untitled_1_InstanceOf_/Engine/__ExternalActors__/Maps/Templates/OpenWorld/2/FF/FIQJAJ1QQXKZL4LB5LGDII.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2024.10.10-16.06.14:378][652]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Temp/Untitled_1_InstanceOf_/Engine/__ExternalActors__/Maps/Templates/OpenWorld/2/CZ/ZFQ3H9N7J6HG98KZTMXHJU.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2024.10.10-16.06.14:378][652]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Temp/Untitled_1_InstanceOf_/Engine/__ExternalActors__/Maps/Templates/OpenWorld/2/4O/M6ZFUL20RQLTVOTJPDJUVM.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2024.10.10-16.06.14:378][652]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Temp/Untitled_1_InstanceOf_/Engine/__ExternalActors__/Maps/Templates/OpenWorld/1/GV/H2Z2SRDKP2UEP02UY2WR43.StaticMesh_HLOD0_Instancing_3 being ready before playing
+[2024.10.10-16.06.14:378][652]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Temp/Untitled_1_InstanceOf_/Engine/__ExternalActors__/Maps/Templates/OpenWorld/1/GV/H2Z2SRDKP2UEP02UY2WR43.StaticMesh_HLOD0_Instancing_2 being ready before playing
+[2024.10.10-16.06.14:378][652]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Temp/Untitled_1_InstanceOf_/Engine/__ExternalActors__/Maps/Templates/OpenWorld/1/69/OOMIOONZJ5VQYEI0DX83K4.StaticMesh_HLOD0_Instancing_7 being ready before playing
+[2024.10.10-16.06.14:378][652]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Temp/Untitled_1_InstanceOf_/Engine/__ExternalActors__/Maps/Templates/OpenWorld/1/69/OOMIOONZJ5VQYEI0DX83K4.StaticMesh_HLOD0_Instancing_6 being ready before playing
+[2024.10.10-16.06.14:378][652]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Temp/Untitled_1_InstanceOf_/Engine/__ExternalActors__/Maps/Templates/OpenWorld/1/69/OOMIOONZJ5VQYEI0DX83K4.StaticMesh_HLOD0_Instancing_5 being ready before playing
+[2024.10.10-16.06.14:378][652]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Temp/Untitled_1_InstanceOf_/Engine/__ExternalActors__/Maps/Templates/OpenWorld/1/69/OOMIOONZJ5VQYEI0DX83K4.StaticMesh_HLOD0_Instancing_4 being ready before playing
+[2024.10.10-16.06.14:378][652]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Temp/Untitled_1_InstanceOf_/Engine/__ExternalActors__/Maps/Templates/OpenWorld/0/ZS/QDCLRJH195LBQL6SG6MX08.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2024.10.10-16.06.14:378][652]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Temp/Untitled_1_InstanceOf_/Engine/__ExternalActors__/Maps/Templates/OpenWorld/0/FE/0EX8YTKENWM2LPVQE1CX9B.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2024.10.10-16.06.14:378][652]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Temp/Untitled_1_InstanceOf_/Engine/__ExternalActors__/Maps/Templates/OpenWorld/0/72/P9KZ1FM4U97NJSI8QUOA7D.StaticMesh_HLOD0_Instancing_3 being ready before playing
+[2024.10.10-16.06.14:378][652]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Temp/Untitled_1_InstanceOf_/Engine/__ExternalActors__/Maps/Templates/OpenWorld/0/72/P9KZ1FM4U97NJSI8QUOA7D.StaticMesh_HLOD0_Instancing_2 being ready before playing
+[2024.10.10-16.06.14:387][652]LogStreaming: Display: FlushAsyncLoading(): 56 QueuedPackages, 0 AsyncPackages
+[2024.10.10-16.06.14:696][652]PIE: Server logged in
+[2024.10.10-16.06.14:697][652]PIE: Play in editor total start time 0.516 seconds.
+[2024.10.10-16.07.36:969][178]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.10.10-16.07.36:969][178]LogWorld: BeginTearingDown for /Temp/UEDPIE_0_Untitled_1
+[2024.10.10-16.07.36:994][178]LogWorld: UWorld::CleanupWorld for Untitled_1, bSessionEnded=true, bCleanupResources=true
+[2024.10.10-16.07.36:995][178]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.10.10-16.07.36:995][178]LogContentBundle: [Untitled_1(Standalone)] Deleting container.
+[2024.10.10-16.07.36:998][178]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.10.10-16.07.37:001][178]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.10.10-16.07.37:011][178]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.10.10-16.07.37:011][178]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 4
+[2024.10.10-16.07.37:011][178]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=4
+[2024.10.10-16.07.37:013][178]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=4
+[2024.10.10-16.07.37:030][178]LogUObjectHash: Compacting FUObjectHashTables data took   0.66ms
+[2024.10.10-16.07.37:101][179]LogPlayLevel: Display: Destroying online subsystem :Context_5
