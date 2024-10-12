@@ -1,0 +1,18 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "d:\\old_files\\unreal_c\\cpptut\\source\\cpptuteditor\\movecomponentvisualiser.cpp",
+        "ProvidedModule": "",
+        "PCH": "d:\\old_files\\unreal_c\\cpptut\\intermediate\\build\\win64\\x64\\cpptuteditor\\development\\unrealed\\sharedpch.unrealed.cpp20.h.pch",
+        "Includes": [
+            "d:\\old_files\\unreal_c\\cpptut\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\cpptuteditor\\definitions.cpptuteditor.h",
+            "d:\\old_files\\unreal_c\\cpptut\\source\\cpptuteditor\\movecomponentvisualiser.h",
+            "d:\\epic games\\ue_5.3\\engine\\source\\editor\\unrealed\\public\\componentvisualizer.h",
+            "d:\\epic games\\ue_5.3\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\unrealed\\uht\\componentvisualizer.generated.h",
+            "d:\\old_files\\unreal_c\\cpptut\\source\\cpptut\\movecomponent.h",
+            "d:\\old_files\\unreal_c\\cpptut\\intermediate\\build\\win64\\unrealeditor\\inc\\cpptut\\uht\\movecomponent.generated.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

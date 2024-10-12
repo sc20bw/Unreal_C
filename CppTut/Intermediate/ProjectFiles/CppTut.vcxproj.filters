@@ -27,6 +27,24 @@
     <None Include="..\..\Config\DefaultEngine.ini">
       <Filter>Config</Filter>
     </None>
+    <Filter Include="Source\CppTutEditor">
+      <UniqueIdentifier>{64383FCC-A425-3524-A6FD-1667570AA913}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\CppTutEditor\CppTutEditor.Build.cs">
+      <Filter>Source\CppTutEditor</Filter>
+    </None>
+    <ClInclude Include="..\..\Source\CppTutEditor\CppTutEditor.h">
+      <Filter>Source\CppTutEditor</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\CppTutEditor\CppTutDitor.cpp">
+      <Filter>Source\CppTutEditor</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\CppTutEditor\MoveComponentVisualiser.h">
+      <Filter>Source\CppTutEditor</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\CppTutEditor\MoveComponentVisualiser.cpp">
+      <Filter>Source\CppTutEditor</Filter>
+    </ClCompile>
     <Filter Include="Source\CppTut">
       <UniqueIdentifier>{B3EE9B97-5DE0-3685-A29C-E7D41188F446}</UniqueIdentifier>
     </Filter>
@@ -39,11 +57,11 @@
     <ClInclude Include="..\..\Source\CppTut\CppTut.h">
       <Filter>Source\CppTut</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\Source\CppTut\MoveComponent.h">
-      <Filter>Source\CppTut</Filter>
-    </ClInclude>
     <ClCompile Include="..\..\Source\CppTut\MoveComponent.cpp">
       <Filter>Source\CppTut</Filter>
     </ClCompile>
+    <ClInclude Include="..\..\Source\CppTut\MoveComponent.h">
+      <Filter>Source\CppTut</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

@@ -16,6 +16,7 @@
   <ItemGroup>
   <Compile Include="..\..\..\..\Source\CppTut.Target.cs"><Link>Source\CppTut.Target.cs</Link></Compile>
   <Compile Include="..\..\..\..\Source\CppTutEditor.Target.cs"><Link>Source\CppTutEditor.Target.cs</Link></Compile>
+  <Compile Include="..\..\..\..\Source\CppTutEditor\CppTutEditor.Build.cs"><Link>Source\CppTutEditor\CppTutEditor.Build.cs</Link></Compile>
   <Compile Include="..\..\..\..\Source\CppTut\CppTut.Build.cs"><Link>Source\CppTut\CppTut.Build.cs</Link></Compile>
   </ItemGroup>
 </Project>

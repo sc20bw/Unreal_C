@@ -1,0 +1,14 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "d:\\old_files\\unreal_c\\cpptut\\source\\cpptuteditor\\movecomponentvisualiser.cpp",
+        "ProvidedModule": "",
+        "PCH": "d:\\old_files\\unreal_c\\cpptut\\intermediate\\build\\win64\\x64\\cpptuteditor\\development\\engine\\sharedpch.engine.cpp20.h.pch",
+        "Includes": [
+            "d:\\old_files\\unreal_c\\cpptut\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\cpptuteditor\\definitions.cpptuteditor.h",
+            "d:\\old_files\\unreal_c\\cpptut\\source\\cpptuteditor\\movecomponentvisualiser.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

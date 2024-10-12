@@ -2,6 +2,7 @@
 	"BuildId": "27405482",
 	"Modules": 
 	{
-		"CppTut": "UnrealEditor-CppTut.dll"
+		"CppTut": "UnrealEditor-CppTut-0001.dll",
+		"CppTutEditor": "UnrealEditor-CppTutEditor-7058.dll"
 	}
 }
