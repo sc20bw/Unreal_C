@@ -39,6 +39,18 @@ void UMoveComponent::EnableMovement(bool ShouldMove)
 	SetComponentTickEnabled(MoveEnable);
 }
 
+void UMoveComponent::ResetMovement()
+{
+	// Clear Distance and reset movement
+	CurrentDistance = 0.f;
+	SetRelativeLocation(StartRealtiveLocation);
+}
+
+void UMoveComponent::SetMoveDirection(int Direction)
+{
+	MoveDirection = Direction >= 1 ? 1 : -1;
+}
+
 
 // Called every frame
 void UMoveComponent::TickComponent(float DeltaTime, ELevelTick TickType, FActorComponentTickFunction* ThisTickFunction)
@@ -49,7 +61,14 @@ void UMoveComponent::TickComponent(float DeltaTime, ELevelTick TickType, FActorC
 	if (MoveEnable) {
 		CurrentDistance += DeltaTime * speed * MoveDirection;
 		if (CurrentDistance >= MaxDistance || CurrentDistance <= 0.f) {
+			// Invert direction
 			MoveDirection *= -1;
+
+			//Fire event
+			OnEndPointReached.Broadcast(CurrentDistance >= MaxDistance);
+
+			// Clamp Distance
+			CurrentDistance = FMath::Clamp(CurrentDistance, 0.f, MaxDistance);
 		}
 	}
 

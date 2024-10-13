@@ -7,23 +7,27 @@
 #include "UObject/GeneratedCppIncludes.h"
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
 void EmptyLinkFunctionForGeneratedCodeCppTut_init() {}
+	CPPTUT_API UFunction* Z_Construct_UDelegateFunction_CppTut_OnMoveComponentReachEndPointSignature__DelegateSignature();
 	static FPackageRegistrationInfo Z_Registration_Info_UPackage__Script_CppTut;
 	FORCENOINLINE UPackage* Z_Construct_UPackage__Script_CppTut()
 	{
 		if (!Z_Registration_Info_UPackage__Script_CppTut.OuterSingleton)
 		{
+			static UObject* (*const SingletonFuncArray[])() = {
+				(UObject* (*)())Z_Construct_UDelegateFunction_CppTut_OnMoveComponentReachEndPointSignature__DelegateSignature,
+			};
 			static const UECodeGen_Private::FPackageParams PackageParams = {
 				"/Script/CppTut",
-				nullptr,
-				0,
+				SingletonFuncArray,
+				UE_ARRAY_COUNT(SingletonFuncArray),
 				PKG_CompiledIn | 0x00000000,
-				0x9183DB2C,
-				0xDF264314,
+				0x76375425,
+				0x6F6DC8CA,
 				METADATA_PARAMS(0, nullptr)
 			};
 			UECodeGen_Private::ConstructUPackage(Z_Registration_Info_UPackage__Script_CppTut.OuterSingleton, PackageParams);
 		}
 		return Z_Registration_Info_UPackage__Script_CppTut.OuterSingleton;
 	}
-	static FRegisterCompiledInInfo Z_CompiledInDeferPackage_UPackage__Script_CppTut(Z_Construct_UPackage__Script_CppTut, TEXT("/Script/CppTut"), Z_Registration_Info_UPackage__Script_CppTut, CONSTRUCT_RELOAD_VERSION_INFO(FPackageReloadVersionInfo, 0x9183DB2C, 0xDF264314));
+	static FRegisterCompiledInInfo Z_CompiledInDeferPackage_UPackage__Script_CppTut(Z_Construct_UPackage__Script_CppTut, TEXT("/Script/CppTut"), Z_Registration_Info_UPackage__Script_CppTut, CONSTRUCT_RELOAD_VERSION_INFO(FPackageReloadVersionInfo, 0x76375425, 0x6F6DC8CA));
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

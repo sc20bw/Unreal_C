@@ -6,6 +6,9 @@
 #include "Components/SceneComponent.h"
 #include "MoveComponent.generated.h"
 
+UDELEGATE(BlueprintAuthorityOnly)
+DECLARE_DYNAMIC_MULTICAST_DELEGATE_OneParam(FOnMoveComponentReachEndPointSignature, bool, IsTopEndPoint);
+
 
 UCLASS( ClassGroup=(newCppTut), meta=(BlueprintSpawnableComponent) )
 class CPPTUT_API UMoveComponent : public USceneComponent
@@ -18,6 +21,13 @@ public:
 
 	UFUNCTION(BlueprintCallable)
 	void EnableMovement(bool ShouldMove);
+
+	UFUNCTION(BlueprintCallable)
+	void ResetMovement();
+
+	UFUNCTION(BlueprintCallable)
+	void SetMoveDirection(int Direction);
+
 
 protected:
 	// Called when the game starts
@@ -41,6 +51,10 @@ private:
 	// Enables component movement
 	UPROPERTY(EditAnywhere)
 	bool MoveEnable = true;
+
+	// On Extreme reached event
+	UPROPERTY(BlueprintAssignable)
+	FOnMoveComponentReachEndPointSignature OnEndPointReached;
 
 	// Computed Locations
 	FVector StartRealtiveLocation;

@@ -1,0 +1,13 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UnrealEditor-CppTutEditor-0001.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"D:\Old_Files\Unreal_C\CppTut\Intermediate\Build\Win64\x64\CppTutEditor\Development\UnrealEd\SharedPCH.UnrealEd.Cpp20.h.obj"
+"D:\Old_Files\Unreal_C\CppTut\Intermediate\Build\Win64\x64\UnrealEditor\Development\CppTutEditor\CppTutEditor.cpp.obj"
+"D:\Old_Files\Unreal_C\CppTut\Intermediate\Build\Win64\x64\UnrealEditor\Development\CppTutEditor\MoveComponentVisualiser.cpp.obj"
+"D:\Old_Files\Unreal_C\CppTut\Intermediate\Build\Win64\x64\UnrealEditor\Development\CppTutEditor\Default.rc2.res"
+/OUT:"D:\Old_Files\Unreal_C\CppTut\Intermediate\Build\Win64\x64\UnrealEditor\Development\CppTutEditor\UnrealEditor-CppTutEditor-0001.lib"
