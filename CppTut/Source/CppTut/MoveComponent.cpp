@@ -26,6 +26,17 @@ void UMoveComponent::BeginPlay()
 	MoveOffsetNorm.Normalize();
 	
 	MaxDistance = MoveOffset.Length();
+
+	// Check if ticking is required
+	this->SetComponentTickEnabled(MoveEnable);
+}
+
+
+// Assign value and set correct tick enable state
+void UMoveComponent::EnableMovement(bool ShouldMove)
+{
+	MoveEnable = ShouldMove;
+	SetComponentTickEnabled(MoveEnable);
 }
 
 
@@ -35,9 +46,11 @@ void UMoveComponent::TickComponent(float DeltaTime, ELevelTick TickType, FActorC
 	Super::TickComponent(DeltaTime, TickType, ThisTickFunction);
 	
 	// Set Current Distance
-	CurrentDistance += DeltaTime * speed * MoveDirection;
-	if (CurrentDistance >= MaxDistance || CurrentDistance <= 0.f) {
-		MoveDirection *= -1;
+	if (MoveEnable) {
+		CurrentDistance += DeltaTime * speed * MoveDirection;
+		if (CurrentDistance >= MaxDistance || CurrentDistance <= 0.f) {
+			MoveDirection *= -1;
+		}
 	}
 
 	// Compute and set current location

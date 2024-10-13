@@ -16,6 +16,9 @@ public:
 	// Sets default values for this component's properties
 	UMoveComponent();
 
+	UFUNCTION(BlueprintCallable)
+	void EnableMovement(bool ShouldMove);
+
 protected:
 	// Called when the game starts
 	virtual void BeginPlay() override;
@@ -34,6 +37,10 @@ private:
 	// Speed
 	UPROPERTY(EditAnywhere)
 	float speed = 1.f;
+
+	// Enables component movement
+	UPROPERTY(EditAnywhere)
+	bool MoveEnable = true;
 
 	// Computed Locations
 	FVector StartRealtiveLocation;
