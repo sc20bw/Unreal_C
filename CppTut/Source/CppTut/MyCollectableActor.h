@@ -10,6 +10,9 @@
 
 #include "MyCollectableActor.generated.h"
 
+UDELEGATE()
+DECLARE_DYNAMIC_MULTICAST_DELEGATE_TwoParams(FOnJumpTriggerSignature, AActor*, OtherActor, UPrimitiveComponent*, OtherComp);
+
 UCLASS()
 class CPPTUT_API AMyCollectableActor : public AActor
 {
@@ -30,6 +33,15 @@ protected:
 	UFUNCTION()
 	void onComponentBeginOverlap(class UBoxComponent* Component, class AActor* OtherActor, class UPrimitiveComponent* OtherComp, int32 OtherBodyIndex, bool bFromSweep, const FHitResult& SweepResult);
 
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+	float LiveTime = 2.f;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+	float Velocity;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+	UClass* TriggerClass = ADefaultPawn::StaticClass();
+
 public:	
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;
@@ -42,11 +54,8 @@ private:
 	UPROPERTY(EditDefaultsOnly)
 	UBoxComponent* BoxCollision;
 
-	UPROPERTY(EditAnywhere)
-	float LiveTime = 2.f;
-
-	UPROPERTY(EditAnywhere)
-	float Velocity;
+	UPROPERTY(BlueprintAssignable)
+	FOnJumpTriggerSignature OnJumpTrigger;
 
 	bool IsLaunched = false;
 
