@@ -8,8 +8,10 @@
 /NODEFAULTLIB
 "D:\Old_Files\Unreal_C\CppTut\Intermediate\Build\Win64\x64\CppTutEditor\Development\Engine\SharedPCH.Engine.Cpp20.h.obj"
 "D:\Old_Files\Unreal_C\CppTut\Intermediate\Build\Win64\x64\UnrealEditor\Development\CppTut\MoveComponent.gen.cpp.obj"
+"D:\Old_Files\Unreal_C\CppTut\Intermediate\Build\Win64\x64\UnrealEditor\Development\CppTut\MyCollectableActor.gen.cpp.obj"
 "D:\Old_Files\Unreal_C\CppTut\Intermediate\Build\Win64\x64\UnrealEditor\Development\CppTut\CppTut.init.gen.cpp.obj"
 "D:\Old_Files\Unreal_C\CppTut\Intermediate\Build\Win64\x64\UnrealEditor\Development\CppTut\CppTut.cpp.obj"
 "D:\Old_Files\Unreal_C\CppTut\Intermediate\Build\Win64\x64\UnrealEditor\Development\CppTut\MoveComponent.cpp.obj"
+"D:\Old_Files\Unreal_C\CppTut\Intermediate\Build\Win64\x64\UnrealEditor\Development\CppTut\MyCollectableActor.cpp.obj"
 "D:\Old_Files\Unreal_C\CppTut\Intermediate\Build\Win64\x64\UnrealEditor\Development\CppTut\Default.rc2.res"
 /OUT:"D:\Old_Files\Unreal_C\CppTut\Intermediate\Build\Win64\x64\UnrealEditor\Development\CppTut\UnrealEditor-CppTut.lib"
