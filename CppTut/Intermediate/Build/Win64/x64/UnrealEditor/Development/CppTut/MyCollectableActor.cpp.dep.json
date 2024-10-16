@@ -7,6 +7,12 @@
         "Includes": [
             "d:\\old_files\\unreal_c\\cpptut\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\cpptut\\definitions.cpptut.h",
             "d:\\old_files\\unreal_c\\cpptut\\source\\cpptut\\mycollectableactor.h",
+            "d:\\epic games\\ue_5.3\\engine\\source\\runtime\\engine\\classes\\components\\boxcomponent.h",
+            "d:\\epic games\\ue_5.3\\engine\\source\\runtime\\engine\\classes\\components\\shapecomponent.h",
+            "d:\\epic games\\ue_5.3\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\shapecomponent.generated.h",
+            "d:\\epic games\\ue_5.3\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\boxcomponent.generated.h",
+            "d:\\epic games\\ue_5.3\\engine\\source\\runtime\\engine\\classes\\gameframework\\defaultpawn.h",
+            "d:\\epic games\\ue_5.3\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\defaultpawn.generated.h",
             "d:\\old_files\\unreal_c\\cpptut\\intermediate\\build\\win64\\unrealeditor\\inc\\cpptut\\uht\\mycollectableactor.generated.h"
         ],
         "ImportedModules": [],
